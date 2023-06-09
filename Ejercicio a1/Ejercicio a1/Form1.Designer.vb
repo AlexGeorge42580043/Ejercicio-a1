@@ -22,21 +22,21 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Button1 = New Button()
+        btEjecutar = New Button()
         Label1 = New Label()
         Label2 = New Label()
         lblMostrarMayor = New Label()
         lblMostrarMenor = New Label()
         SuspendLayout()
         ' 
-        ' Button1
+        ' btEjecutar
         ' 
-        Button1.Location = New Point(342, 74)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(121, 56)
-        Button1.TabIndex = 0
-        Button1.Text = "Button1"
-        Button1.UseVisualStyleBackColor = True
+        btEjecutar.Location = New Point(342, 74)
+        btEjecutar.Name = "btEjecutar"
+        btEjecutar.Size = New Size(121, 56)
+        btEjecutar.TabIndex = 0
+        btEjecutar.Text = "Ejecutar"
+        btEjecutar.UseVisualStyleBackColor = True
         ' 
         ' Label1
         ' 
@@ -81,14 +81,14 @@ Partial Class Form1
         Controls.Add(lblMostrarMayor)
         Controls.Add(Label2)
         Controls.Add(Label1)
-        Controls.Add(Button1)
+        Controls.Add(btEjecutar)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btEjecutar As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents lblMostrarMayor As Label
