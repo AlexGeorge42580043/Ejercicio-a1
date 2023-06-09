@@ -6,6 +6,9 @@
         If a > b Then
             lblMostrarMayor.Text = "" & a
             lblMostrarMenor.Text = "" & b
+        Else
+            lblMostrarMenor.Text = "" & a
+            lblMostrarMayor.Text = "" & b
         End If
     End Sub
 End Class
